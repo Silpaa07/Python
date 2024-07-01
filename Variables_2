@@ -1,0 +1,6 @@
+//Write a program to change the value of a variable by taking an input from the user.
+# Python program showing 
+# a use of input()
+
+val = input("Enter your value: ")
+print(val)
