@@ -1,0 +1,5 @@
+//write a program to print the ASCII value of any character. 
+
+K = input("Please enter a character: ")    
+    
+print ("The ASCII value of '" + K + "' is ", ord(K))  
