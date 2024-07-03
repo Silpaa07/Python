@@ -1,0 +1,12 @@
+//Write a program in python to find out the area of a hexagon.
+import math
+
+def hexagon(side_length):
+    areaofhexagon = (3 * math.sqrt(3) * (side_length ** 2)) / 2
+    return areaofhexagon
+
+# Given side length
+side_length = 5  # You can change this value to any desired side length
+
+areaofhexagon = hexagon(side_length)
+print("The area of the hexagon with side length {} is {:.3f}".format(side_length, areaofhexagon))
