@@ -1,0 +1,8 @@
+//Write a python program to create 2 dimensional array.
+import numpy
+
+matrix = numpy.zeros((3,3))
+
+# array([[0., 0., 0.],
+#        [0., 0., 0.],
+#        [0., 0., 0.]])
